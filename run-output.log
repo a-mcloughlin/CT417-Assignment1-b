@@ -1,0 +1,276 @@
+cd C:\Users\Aideen\Documents\NetBeansProjects\registration-system-b; "JAVA_HOME=C:\\Program Files\\Java\\jdk-11.0.8" cmd /c "\"C:\\Program Files\\NetBeans-12.1\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.args=\"-classpath %classpath DriverClass\" -Dexec.executable=\"C:\\Program Files\\Java\\jdk-11.0.8\\bin\\java.exe\" -Dmaven.ext.class.path=\"C:\\Program Files\\NetBeans-12.1\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 org.codehaus.mojo:exec-maven-plugin:1.5.0:exec"
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+
+----------------< com.mycompany:registration-system-b >-----------------
+Building registration-system-b 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- exec-maven-plugin:1.5.0:exec (default-cli) @ registration-system-b ---
+-------------------------------------
+Course Name:                 Arts Course
+Course Start Date:           01/09/2020
+Course End Date:             31/12/2020
+Students Enrolled in Course: 
+ID: 12345678	Name: Douglas Villa	DOB: 01/01/1990	Username: douglas.villa.30
+ID: 13345678	Name: Jacky Gross	DOB: 01/01/1991	Username: jacky.gross.29
+ID: 14345678	Name: Rayan Matthews	DOB: 01/01/1992	Username: rayan.matthews.28
+ID: 15345678	Name: Kevin Chapman	DOB: 01/01/1993	Username: kevin.chapman.27
+Modules in Course:           
+ID: 2	Name: English 103	Lecturer: Jordyn Paul
+ID: 3	Name: Irish 12345	Lecturer: Bryanna Morris
+ID: 4	Name: History 101	Lecturer: Keyla Sosa
+-------------------------------------
+-------------------------------------
+Course Name:                 Science Course
+Course Start Date:           01/09/2020
+Course End Date:             31/12/2020
+Students Enrolled in Course: 
+ID: 16345678	Name: Juliana Woodard	DOB: 01/01/1994	Username: juliana.woodard.26
+ID: 17345678	Name: Adriana Waters	DOB: 01/01/1995	Username: adriana.waters.25
+ID: 18345678	Name: Conor Harrington	DOB: 01/01/1996	Username: conor.harrington.24
+ID: 19345678	Name: Eddie Chang	DOB: 01/01/1997	Username: eddie.chang.23
+Modules in Course:           
+ID: 1	Name: Maths 210.2	Lecturer: Danielle Young
+ID: 5	Name: Physics 201	Lecturer: Glenn Rodriguez
+ID: 3	Name: Irish 12345	Lecturer: Bryanna Morris
+-------------------------------------
+-------------------------------------
+Course Name:                 Literature Course
+Course Start Date:           01/09/2020
+Course End Date:             31/12/2020
+Students Enrolled in Course: 
+ID: 11345678	Name: Zackery Hughes	DOB: 01/01/1998	Username: zackery.hughes.22
+ID: 12245678	Name: Kathy Gonzalez	DOB: 01/01/1999	Username: kathy.gonzalez.21
+ID: 12445678	Name: Maribel Galloway	DOB: 01/01/2000	Username: maribel.galloway.20
+Modules in Course:           
+ID: 2	Name: English 103	Lecturer: Jordyn Paul
+ID: 5	Name: Physics 201	Lecturer: Glenn Rodriguez
+ID: 4	Name: History 101	Lecturer: Keyla Sosa
+-------------------------------------
+-------------------------------------
+Course Name:                 Maths 210.2
+Course ID:                   1
+Course Lecturer:             Danielle Young
+Students Enrolled in Module: 
+ID: 16345678	Name: Juliana Woodard	DOB: 01/01/1994	Username: juliana.woodard.26
+ID: 17345678	Name: Adriana Waters	DOB: 01/01/1995	Username: adriana.waters.25
+ID: 18345678	Name: Conor Harrington	DOB: 01/01/1996	Username: conor.harrington.24
+ID: 19345678	Name: Eddie Chang	DOB: 01/01/1997	Username: eddie.chang.23
+Courses that Module is a part of:           
+Name: Science Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Course Name:                 English 103
+Course ID:                   2
+Course Lecturer:             Jordyn Paul
+Students Enrolled in Module: 
+ID: 12345678	Name: Douglas Villa	DOB: 01/01/1990	Username: douglas.villa.30
+ID: 13345678	Name: Jacky Gross	DOB: 01/01/1991	Username: jacky.gross.29
+ID: 14345678	Name: Rayan Matthews	DOB: 01/01/1992	Username: rayan.matthews.28
+ID: 15345678	Name: Kevin Chapman	DOB: 01/01/1993	Username: kevin.chapman.27
+ID: 11345678	Name: Zackery Hughes	DOB: 01/01/1998	Username: zackery.hughes.22
+ID: 12245678	Name: Kathy Gonzalez	DOB: 01/01/1999	Username: kathy.gonzalez.21
+ID: 12445678	Name: Maribel Galloway	DOB: 01/01/2000	Username: maribel.galloway.20
+Courses that Module is a part of:           
+Name: Arts Course	Start Date: 01/09/2020	End Date: 31/12/2020
+Name: Literature Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Course Name:                 Irish 12345
+Course ID:                   3
+Course Lecturer:             Bryanna Morris
+Students Enrolled in Module: 
+ID: 12345678	Name: Douglas Villa	DOB: 01/01/1990	Username: douglas.villa.30
+ID: 13345678	Name: Jacky Gross	DOB: 01/01/1991	Username: jacky.gross.29
+ID: 14345678	Name: Rayan Matthews	DOB: 01/01/1992	Username: rayan.matthews.28
+ID: 15345678	Name: Kevin Chapman	DOB: 01/01/1993	Username: kevin.chapman.27
+ID: 16345678	Name: Juliana Woodard	DOB: 01/01/1994	Username: juliana.woodard.26
+ID: 17345678	Name: Adriana Waters	DOB: 01/01/1995	Username: adriana.waters.25
+ID: 18345678	Name: Conor Harrington	DOB: 01/01/1996	Username: conor.harrington.24
+ID: 19345678	Name: Eddie Chang	DOB: 01/01/1997	Username: eddie.chang.23
+Courses that Module is a part of:           
+Name: Arts Course	Start Date: 01/09/2020	End Date: 31/12/2020
+Name: Science Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Course Name:                 History 101
+Course ID:                   4
+Course Lecturer:             Keyla Sosa
+Students Enrolled in Module: 
+ID: 12345678	Name: Douglas Villa	DOB: 01/01/1990	Username: douglas.villa.30
+ID: 13345678	Name: Jacky Gross	DOB: 01/01/1991	Username: jacky.gross.29
+ID: 14345678	Name: Rayan Matthews	DOB: 01/01/1992	Username: rayan.matthews.28
+ID: 15345678	Name: Kevin Chapman	DOB: 01/01/1993	Username: kevin.chapman.27
+ID: 11345678	Name: Zackery Hughes	DOB: 01/01/1998	Username: zackery.hughes.22
+ID: 12245678	Name: Kathy Gonzalez	DOB: 01/01/1999	Username: kathy.gonzalez.21
+ID: 12445678	Name: Maribel Galloway	DOB: 01/01/2000	Username: maribel.galloway.20
+Courses that Module is a part of:           
+Name: Arts Course	Start Date: 01/09/2020	End Date: 31/12/2020
+Name: Literature Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Course Name:                 Physics 201
+Course ID:                   5
+Course Lecturer:             Glenn Rodriguez
+Students Enrolled in Module: 
+ID: 16345678	Name: Juliana Woodard	DOB: 01/01/1994	Username: juliana.woodard.26
+ID: 17345678	Name: Adriana Waters	DOB: 01/01/1995	Username: adriana.waters.25
+ID: 18345678	Name: Conor Harrington	DOB: 01/01/1996	Username: conor.harrington.24
+ID: 19345678	Name: Eddie Chang	DOB: 01/01/1997	Username: eddie.chang.23
+ID: 11345678	Name: Zackery Hughes	DOB: 01/01/1998	Username: zackery.hughes.22
+ID: 12245678	Name: Kathy Gonzalez	DOB: 01/01/1999	Username: kathy.gonzalez.21
+ID: 12445678	Name: Maribel Galloway	DOB: 01/01/2000	Username: maribel.galloway.20
+Courses that Module is a part of:           
+Name: Science Course	Start Date: 01/09/2020	End Date: 31/12/2020
+Name: Literature Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Student Name:                 Douglas Villa
+Student ID:                   12345678
+Student Username:             douglas.villa.30
+Student Date of Birth:        01/01/1990
+Student Age:                  30
+Modules that Student is enrolled in: 
+ID: 2	Name: English 103	Lecturer: Jordyn Paul
+ID: 3	Name: Irish 12345	Lecturer: Bryanna Morris
+ID: 4	Name: History 101	Lecturer: Keyla Sosa
+Courses that Student is enrolled in:           
+Name: Arts Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Student Name:                 Jacky Gross
+Student ID:                   13345678
+Student Username:             jacky.gross.29
+Student Date of Birth:        01/01/1991
+Student Age:                  29
+Modules that Student is enrolled in: 
+ID: 2	Name: English 103	Lecturer: Jordyn Paul
+ID: 3	Name: Irish 12345	Lecturer: Bryanna Morris
+ID: 4	Name: History 101	Lecturer: Keyla Sosa
+Courses that Student is enrolled in:           
+Name: Arts Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Student Name:                 Rayan Matthews
+Student ID:                   14345678
+Student Username:             rayan.matthews.28
+Student Date of Birth:        01/01/1992
+Student Age:                  28
+Modules that Student is enrolled in: 
+ID: 2	Name: English 103	Lecturer: Jordyn Paul
+ID: 3	Name: Irish 12345	Lecturer: Bryanna Morris
+ID: 4	Name: History 101	Lecturer: Keyla Sosa
+Courses that Student is enrolled in:           
+Name: Arts Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Student Name:                 Kevin Chapman
+Student ID:                   15345678
+Student Username:             kevin.chapman.27
+Student Date of Birth:        01/01/1993
+Student Age:                  27
+Modules that Student is enrolled in: 
+ID: 2	Name: English 103	Lecturer: Jordyn Paul
+ID: 3	Name: Irish 12345	Lecturer: Bryanna Morris
+ID: 4	Name: History 101	Lecturer: Keyla Sosa
+Courses that Student is enrolled in:           
+Name: Arts Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Student Name:                 Juliana Woodard
+Student ID:                   16345678
+Student Username:             juliana.woodard.26
+Student Date of Birth:        01/01/1994
+Student Age:                  26
+Modules that Student is enrolled in: 
+ID: 1	Name: Maths 210.2	Lecturer: Danielle Young
+ID: 5	Name: Physics 201	Lecturer: Glenn Rodriguez
+ID: 3	Name: Irish 12345	Lecturer: Bryanna Morris
+Courses that Student is enrolled in:           
+Name: Science Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Student Name:                 Adriana Waters
+Student ID:                   17345678
+Student Username:             adriana.waters.25
+Student Date of Birth:        01/01/1995
+Student Age:                  25
+Modules that Student is enrolled in: 
+ID: 1	Name: Maths 210.2	Lecturer: Danielle Young
+ID: 5	Name: Physics 201	Lecturer: Glenn Rodriguez
+ID: 3	Name: Irish 12345	Lecturer: Bryanna Morris
+Courses that Student is enrolled in:           
+Name: Science Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Student Name:                 Conor Harrington
+Student ID:                   18345678
+Student Username:             conor.harrington.24
+Student Date of Birth:        01/01/1996
+Student Age:                  24
+Modules that Student is enrolled in: 
+ID: 1	Name: Maths 210.2	Lecturer: Danielle Young
+ID: 5	Name: Physics 201	Lecturer: Glenn Rodriguez
+ID: 3	Name: Irish 12345	Lecturer: Bryanna Morris
+Courses that Student is enrolled in:           
+Name: Science Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Student Name:                 Eddie Chang
+Student ID:                   19345678
+Student Username:             eddie.chang.23
+Student Date of Birth:        01/01/1997
+Student Age:                  23
+Modules that Student is enrolled in: 
+ID: 1	Name: Maths 210.2	Lecturer: Danielle Young
+ID: 5	Name: Physics 201	Lecturer: Glenn Rodriguez
+ID: 3	Name: Irish 12345	Lecturer: Bryanna Morris
+Courses that Student is enrolled in:           
+Name: Science Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Student Name:                 Zackery Hughes
+Student ID:                   11345678
+Student Username:             zackery.hughes.22
+Student Date of Birth:        01/01/1998
+Student Age:                  22
+Modules that Student is enrolled in: 
+ID: 2	Name: English 103	Lecturer: Jordyn Paul
+ID: 5	Name: Physics 201	Lecturer: Glenn Rodriguez
+ID: 4	Name: History 101	Lecturer: Keyla Sosa
+Courses that Student is enrolled in:           
+Name: Literature Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Student Name:                 Kathy Gonzalez
+Student ID:                   12245678
+Student Username:             kathy.gonzalez.21
+Student Date of Birth:        01/01/1999
+Student Age:                  21
+Modules that Student is enrolled in: 
+ID: 2	Name: English 103	Lecturer: Jordyn Paul
+ID: 5	Name: Physics 201	Lecturer: Glenn Rodriguez
+ID: 4	Name: History 101	Lecturer: Keyla Sosa
+Courses that Student is enrolled in:           
+Name: Literature Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+-------------------------------------
+Student Name:                 Maribel Galloway
+Student ID:                   12445678
+Student Username:             maribel.galloway.20
+Student Date of Birth:        01/01/2000
+Student Age:                  20
+Modules that Student is enrolled in: 
+ID: 2	Name: English 103	Lecturer: Jordyn Paul
+ID: 5	Name: Physics 201	Lecturer: Glenn Rodriguez
+ID: 4	Name: History 101	Lecturer: Keyla Sosa
+Courses that Student is enrolled in:           
+Name: Literature Course	Start Date: 01/09/2020	End Date: 31/12/2020
+-------------------------------------
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  1.629 s
+Finished at: 2020-10-09T16:15:55+01:00
+------------------------------------------------------------------------
